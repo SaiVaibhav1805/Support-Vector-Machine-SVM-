@@ -1,0 +1,27 @@
+SVM is mainly used for:
+--> complex data seperation
+--> classification problems
+--> binary classification
+Ex:
+Spam vs not Spam
+cat vs dog
+disease vs no disease
+
+
+When does logistic regression work well?
+--> when the data is linearly sepearable
+
+If the data is complex
+--> the data is overlapped
+--> decision boundary is not straight
+
+in the above cases SVM is powerful
+
+If the data falls in the decision boundary then it is soft boundary
+If it doesnt then it is hard boundary
+
+Linear regression--> y=mx+c
+Hyperparameters --> these are the values which are not related or not learnt from the data.
+But these are the parameters which are given as input to the data unlike parameters which depend on the data
+
+GridSearchCV vs RandomSearchCV
